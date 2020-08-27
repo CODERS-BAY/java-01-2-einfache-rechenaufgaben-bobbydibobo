@@ -2,13 +2,13 @@ public class SimpleMaths {
 
     public static void main(String[] args) {
 
-        double numberOne = 278;
-        double numberTwo = 192;
+        int numberOne = 278;
+        int numberTwo = 192;
 
-        int sum = (int) (numberOne + numberTwo);
-        int difference = (int) (numberOne - numberTwo);
-        int product = (int) (numberOne * numberTwo);
-        double qoutient = numberOne / numberTwo;
+        int sum = (numberOne + numberTwo);
+        int difference = (numberOne - numberTwo);
+        int product =  (numberOne * numberTwo);
+        double qoutient = (double) numberOne / numberTwo;
 
         System.out.println(numberOne + " + " + numberTwo + " = " + sum);
         System.out.println(numberOne + " - " + numberTwo + " = " + difference);
